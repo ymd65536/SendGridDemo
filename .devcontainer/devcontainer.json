@@ -1,0 +1,6 @@
+{
+  "name": "uv-template",
+  "image": "mcr.microsoft.com/devcontainers/python:1-3.11-bookworm",
+  "remoteUser": "root",
+  "postCreateCommand": "python -m pip install --no-cache-dir \"uv==0.5.24\" && { grep -qxF 'export PS1=\"$ \"' ~/.bashrc || echo 'export PS1=\"$ \"' >> ~/.bashrc; } && uv sync --no-install-project"
+}

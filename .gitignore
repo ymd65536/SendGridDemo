@@ -1,0 +1,14 @@
+# envrionment
+.env
+
+# python
+.pyc
+__pycache__
+.venv
+bin
+lib
+lib64
+include
+
+# macOS
+.DS_Store
