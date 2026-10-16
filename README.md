@@ -1,4 +1,4 @@
-# uv Python Template
+# SendGridDemo
 
 ## Overview
 
@@ -22,3 +22,8 @@ PYTHONDONTWRITEBYTECODE=1 uv run python -c "import sys; print(sys.dont_write_byt
 ```
 
 `__pycache__` を出したくないコマンドは、上記のように `PYTHONDONTWRITEBYTECODE=1` を付けて実行してください（この設定は付与したコマンド実行時のみ有効です）。
+
+## 参考
+
+- [APIライブラリ](https://sendgrid.kke.co.jp/docs/Integrate/libraries.html)
+- [Python Library](https://github.com/sendgrid/sendgrid-python)
